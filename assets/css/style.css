@@ -4831,7 +4831,7 @@ Footer Area CSS
 }
 
 .footer-widget-info .footer-widget ul li a {
-  color: var(--whiteColor);
+  color: var(--paragraphColorSecond);
   position: relative;
 }
 
@@ -4840,7 +4840,7 @@ Footer Area CSS
 }
 
 .footer-widget-info .footer-widget ul li a i {
-  color: var(--whiteColor);
+  color: var(--mainColor);
   font-size: 22px;
   position: absolute;
   content: '';

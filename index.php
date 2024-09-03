@@ -1,25 +1,51 @@
 <?php include 'includes/header.php'; ?>
         <!-- Start Clgun Banner 2 Area -->
-        <div class="banner-area-2 big-bg-2">
-            <div class="container">
-                <div class="banner-content-2">
-                    <div class="content">
-                        <span data-aos="fade-zoom-in" data-aos-delay="300">THE <b style="color:var(--mainColor)">BEST ACADEMY</b> OF THE STATE</span>
-                        <h1 data-aos="fade-up" data-aos-delay="200">Transformative Education</h1>
-                        <p data-aos="fade-up" data-aos-delay="300">There are numerous courses available but many fail to deliver on their promises of career advancement. We offer a meaningful alternative to conventional education by ensuring job placement after completion. Pursue our professional, technical, design and business courses alongside life skills training to truly excel in your career and personal growth.</p>
-                        <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                            <a class="default-btn" href="application-form.html">Apply to Job</a>
-                            <a class="default-btn btn-style-2" href="contact-us.html">Apply to Course</a>
-                        </div>
-                        <div class="vertical-lr" data-aos="fade-zoom-in" data-aos-delay="100">
-                            <p>Transformative Education <span>12-10-2024</span></p>
-                        </div>
+        <div class="slider-banner-area">
+            <div class="slider-courser owl-carousel owl-theme">
+                    <div class="banner-area-2 big-bg-2">
+                        <div class="container">
+                            <div class="banner-content-2">
+                                <div class="content">
+                                    <span data-aos="fade-zoom-in" data-aos-delay="300">THE <b style="color:var(--mainColor)">BEST ACADEMY</b> OF THE STATE</span>
+                                    <h1 data-aos="fade-up" data-aos-delay="200">Transformative Education</h1>
+                                    <p data-aos="fade-up" data-aos-delay="300">There are numerous courses available but many fail to deliver on their promises of career advancement. We offer a meaningful alternative to conventional education by ensuring job placement after completion. Pursue our professional, technical, design and business courses alongside life skills training to truly excel in your career and personal growth.</p>
+                                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
+                                        <a class="default-btn" href="application-form.html">Apply to Job</a>
+                                        <a class="default-btn btn-style-2" href="contact-us.html">Apply to Course</a>
+                                    </div>
+                                    <div class="vertical-lr" data-aos="fade-zoom-in" data-aos-delay="100">
+                                        <p>Transformative Education <span>12-10-2024</span></p>
+                                    </div>
 
-                        <div class="scroll-down" data-aos="fade-down" data-aos-delay="100">
-                           <a href="#about"><i class='bx bx-chevron-down'></i></a> 
+                                    <div class="scroll-down" data-aos="fade-down" data-aos-delay="100">
+                                    <a href="#about"><i class='bx bx-chevron-down'></i></a> 
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="banner-area-2 big-bg-2">
+                        <div class="container">
+                            <div class="banner-content-2">
+                                <div class="content">
+                                    <span data-aos="fade-zoom-in" data-aos-delay="300">THE <b style="color:var(--mainColor)">BEST ACADEMY</b> OF THE STATE</span>
+                                    <h1 data-aos="fade-up" data-aos-delay="200">Transformative Education</h1>
+                                    <p data-aos="fade-up" data-aos-delay="300">There are numerous courses available but many fail to deliver on their promises of career advancement. We offer a meaningful alternative to conventional education by ensuring job placement after completion. Pursue our professional, technical, design and business courses alongside life skills training to truly excel in your career and personal growth.</p>
+                                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
+                                        <a class="default-btn" href="application-form.html">Apply to Job</a>
+                                        <a class="default-btn btn-style-2" href="contact-us.html">Apply to Course</a>
+                                    </div>
+                                    <div class="vertical-lr" data-aos="fade-zoom-in" data-aos-delay="100">
+                                        <p>Transformative Education <span>12-10-2024</span></p>
+                                    </div>
+
+                                    <div class="scroll-down" data-aos="fade-down" data-aos-delay="100">
+                                    <a href="#about"><i class='bx bx-chevron-down'></i></a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
         <!-- End Clgun Banner 2 Area -->
@@ -28,7 +54,7 @@
         <div id="about" class="about-us-area-2 ptb-100">
             <div class="container">
                 <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-                    <h2>About Our Courses</h2>
+                    <h2>Our Courses</h2>
                     <p>Unlock your potential with our diverse courses, designed for Career Enhancement, Skill Development and Lifelong learning.</p>
                 </div>
                 <div class="about-content-courser owl-carousel owl-theme">
@@ -89,31 +115,6 @@
                             </div>
                             <div class="content">
                                 <h2>Our students create a vibrant and inclusive community</h2>
-                                <div class="item">
-                                    <div class="item-content">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/features-icon-2.png" alt="image">
-                                        </div>
-                                        <h3>Education Services</h3>
-                                        <p>At Edploy, we’re dedicated to providing
-top-notch education services that cater to diverse learning
-needs. Our approach is designed to make learning both
-effective and adaptable, ensuring that you can achieve your
-goals on your own terms.</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="item-content">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/features-icon-1.png" alt="image">
-                                        </div>
-                                        <h3>Efficient & Flexible</h3>
-                                        <p>we understand that modern education requires both efficiency
-and flexibility. Our innovative approach ensures that you get the
-most out of your learning experience, tailored to fit your individual
-needs and busy lifestyle.</p>
-                                    </div>
-                                </div>
                                 <a class="default-btn" href="#">MORE SERVICES</a>
                                 <div class="arrow-icon">
                                     <img src="assets/img/icon/shape-1.png" alt="image">
@@ -205,7 +206,7 @@ needs and busy lifestyle.</p>
             <div class="container">
                 <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                     <div class="sub-title">
-                        <p>Campus News</p>
+                        <p>Hiring Partners</p>
                     </div>
                     <h2>Stories About People, Research, and Innovation Across The Farm</h2>
                 </div>
@@ -287,257 +288,6 @@ needs and busy lifestyle.</p>
             </div>
         </div>
         <!-- End News Area 2 -->
-
-        <!-- Start Faculty Area 2 -->
-        <div class="faculty-area-2 ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3">
-                        <div class="heading" data-aos="fade-up" data-aos-delay="100">
-                            <h2>Scholarship Programs</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted by the readablecont of a page when looking at its layout. The point of using Lorem Ipsum is that it has more-or-less normal distribution of letters, as opposed to using.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
-                        <div class="button">
-                            <a class="default-btn" href="financial-aid.html">Financial Aid</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Faculty Area 2 -->
-
-        <!-- Start Quick Search Area -->
-        <div class="quick-search style-2 ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="course-search-box" data-aos="fade-right">
-                            <h4>Search For Courses</h4>
-                            <div class="search-key">
-                                <input class="form-control" placeholder="Keywords" type="search" value="" id="searchKey1">
-                                <input class="form-control" placeholder="Course ID" type="search" value="" id="searchKey">
-                                
-                                <select class="form-select" aria-label="Default select example" id="searchKey2">
-                                    <option selected>Department</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <select class="form-select" aria-label="Default select example" id="searchKey3">
-                                    <option selected>Campus</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <select class="form-select" aria-label="Default select example" id="searchKey4">
-                                    <option selected>Level</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <select class="form-select" aria-label="Default select example" id="searchKey5">
-                                    <option selected>Instructor</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <select class="form-select" aria-label="Default select example" id="searchKey6">
-                                    <option selected>Semester</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <select class="form-select" aria-label="Default select example" id="searchKey7">
-                                    <option selected>Credit</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-
-                                <a class="default-btn" href="#">Search Courses</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="quick-content" data-aos="fade-up" data-aos-delay="200">
-                            <div class="sub-title">
-                                <p>Campus News</p>
-                            </div>
-                            <h2>Start Your Career & Pursue Your Passion</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readablecont of a page when looking at its layout. The point of using Lorem Ipsum is that it ha more-or-less normal distribution of letters, as opposed to using.</p>
-
-                            <div class="list">
-                                <div class="row">
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="list-items">
-                                            <ul>
-                                                <li><i class='bx bx-right-arrow-circle'></i> Alumni & Donors</li>
-                                                <li><i class='bx bx-right-arrow-circle'></i> Athletic Calendar</li>
-                                                <li><i class='bx bx-right-arrow-circle'></i> All Canyon Events</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="list-items">
-                                            <ul>
-                                                <li><i class='bx bx-right-arrow-circle'></i> Partnership & Out Reach</li>
-                                                <li><i class='bx bx-right-arrow-circle'></i> Academic Programs</li>
-                                                <li><i class='bx bx-right-arrow-circle'></i> Tution And Fees</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                            </div>
-
-                            <div class="apply-banner">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <p>Apply for Admission</p>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6 text-end">
-                                        <a class="default-btn" href="application-form.html">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="user-exprience">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="user-info">
-                                            <div class="image">
-                                                <img src="assets/img/all-img/admin-image.png" alt="image">
-                                            </div>
-                                            <div class="text">
-                                                <h4>John Michael</h4>
-                                                <p>Founder</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="exprience">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/trophy-star.png" alt="image">
-                                            </div>
-                                            <div class="text">
-                                                <h4>20</h4>
-                                                <p>Years of <br> Experience</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Quick Search Area -->
-
-        <!-- Start Campus Area 2 -->
-        <div class="campus-area-2 ptb-100">
-            <div class="container-fluaid">
-                <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
-                    <div class="sub-title">
-                        <p>The Campus Experience</p>
-                    </div>
-                    <h2>One University, Many Places</h2>
-                </div>
-
-                <div class="campus-slider owl-carousel owl-theme">
-                    <div class="campus-card" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/all-img/campus-image-1.png" alt="image">
-                        <div class="content">
-                            <h2>West Campus</h2>
-                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
-                        </div>
-                    </div>
-                    <div class="campus-card" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/all-img/campus-image-2.png" alt="image">
-                        <div class="content">
-                            <h2>Washington D.C</h2>
-                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
-                        </div>
-                    </div>
-                    <div class="campus-card" data-aos="fade-up" data-aos-delay="300">
-                        <img src="assets/img/all-img/campus-image-3.png" alt="image">
-                        <div class="content">
-                            <h2>West Campus</h2>
-                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Campus Area -->
-
-        <!-- Start Activities Area -->
-        <div class="activities-area ptb-100">
-            <div class="container">
-                <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
-                    <div class="sub-title">
-                        <p>Sports and Athletics</p>
-                    </div>
-                    <h2>Beyond the Bleachers: Diverse Sports & Activities</h2>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="100">
-                            <div class="image">
-                                <img src="assets/img/all-img/activities-image-1.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <h2><a href="student-activities.html">Home of Champions</a></h2>
-                                <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered alteration in some form.</p>
-                                <a class="btn" href="student-activities.html">National Championships</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-6 pt-25">
-                        <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="200">
-                            <div class="image">
-                                <img src="assets/img/all-img/activities-image-2.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <h2><a href="support-guidance.html">Olympic Excellence</a></h2>
-                                <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered alteration in some form.</p>
-                                <a class="btn" href="support-guidance.html">Medals</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="300">
-                            <div class="image">
-                                <img src="assets/img/all-img/activities-image-3.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <h2><a href="fitness-athletics.html">Multidimensional Impact</a></h2>
-                                <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered alteration in some form.</p>
-                                <a class="btn" href="fitness-athletics.html">Athlete Stories</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section-btn text-center" data-aos="fade-zoom-in" data-aos-delay="100">
-                    <p>Inspiring Minds, Shaping Futures. <a href="fitness-athletics.html">More About Athletics <i class='bx bx-right-arrow-alt'></i></a></p>
-                </div>
-            </div>
-        </div>
-        <!-- End Activities Area -->
 
         <!-- Start Events Area 2 -->
         <div class="events-area-2 pt-100">
@@ -656,72 +406,169 @@ needs and busy lifestyle.</p>
         </div>
         <!-- End Events Area 2 -->
 
-        <!-- Start Success Area 2 -->
-        <div class="success-area success-area-2 ptb-100">
+        <!-- Start Faculty Area 2 -->
+        <!-- <div class="faculty-area-2 ptb-100">
             <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="heading" data-aos="fade-up" data-aos-delay="100">
+                            <h2>Scholarship Programs</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                        <div class="content">
+                            <p>It is a long established fact that a reader will be distracted by the readablecont of a page when looking at its layout. The point of using Lorem Ipsum is that it has more-or-less normal distribution of letters, as opposed to using.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
+                        <div class="button">
+                            <a class="default-btn" href="financial-aid.html">Financial Aid</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- End Faculty Area 2 -->
+
+
+        <!-- Start Campus Area 2 -->
+        <div class="campus-area-2 ptb-100">
+            <div class="container-fluaid">
                 <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                     <div class="sub-title">
-                        <p>Student, Faculty and Alumni Success</p>
+                        <p>The Campus Experience</p>
                     </div>
-                    <h2>Celebrating the Legacy, Embracing the Future</h2>
-                </div>
-    
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="success-card" data-aos="fade-up" data-aos-delay="100">
-                            <div class="image">
-                                <img src="assets/img/all-img/success-image-1.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <div class="play">
-                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=LlCwHnp3kL4"><i class='bx bx-play'></i></a>
-                                </div>
-                                <ul>
-                                    <li><a href="university-life.html"><h3>Amelia Harper ’23 (BA) </h3></a></li>
-                                    <li class="link"><a href="university-life.html"><i class='bx bx-link-external'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="success-card" data-aos="fade-up" data-aos-delay="200">
-                            <div class="image">
-                                <img src="assets/img/all-img/success-image-2.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <div class="play">
-                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=LlCwHnp3kL4"><i class='bx bx-play'></i></a>
-                                </div>
-                                <ul>
-                                    <li><a href="university-life.html"><h3>Oliver Elijah ’23 (BS/BA)</h3></a></li>
-                                    <li class="link"><a href="university-life.html"><i class='bx bx-link-external'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="success-card" data-aos="fade-up" data-aos-delay="300">
-                            <div class="image">
-                                <img src="assets/img/all-img/success-image-3.png" alt="image">
-                            </div>
-                            <div class="content">
-                                <div class="play">
-                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=LlCwHnp3kL4"><i class='bx bx-play'></i></a>
-                                </div>
-                                <ul>
-                                    <li><a href="university-life.html"><h3>Sofia Grace ’15 (BA)</h3></a></li>
-                                    <li class="link"><a href="university-life.html"><i class='bx bx-link-external'></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <h2>One University, Many Places</h2>
                 </div>
 
-                <div class="section-btn text-center" data-aos="fade-zoom-in" data-aos-delay="100">
-                    <p>Inspiring Minds, Shaping Futures. <a href="undergraduate.html">Learn about the USD Honors Program <i class='bx bx-right-arrow-alt'></i></a></p>
+                <div class="campus-slider owl-carousel owl-theme">
+                    <div class="campus-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/all-img/campus-image-1.png" alt="image">
+                        <div class="content">
+                            <h2>West Campus</h2>
+                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
+                        </div>
+                    </div>
+                    <div class="campus-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/img/all-img/campus-image-2.png" alt="image">
+                        <div class="content">
+                            <h2>Washington D.C</h2>
+                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
+                        </div>
+                    </div>
+                    <div class="campus-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/img/all-img/campus-image-3.png" alt="image">
+                        <div class="content">
+                            <h2>West Campus</h2>
+                            <a class="default-btn" href="the-campus-experience.html">Virtual Tour</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- End Success Area 2 -->
+        <!-- End Campus Area -->
+
+        <!-- Start Quick Search Area -->
+        <div class="contact-area ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contact-content">
+                            <div class="header-content">
+                                <h2>We’d Love To Hear From You</h2>
+                                <p>Clgun University offers a supportive educational experience, from developing an academic plan to graduation. Clgun University students earn bachelor’s and master’s degrees in business, education, health sciences, and nursing.</p>
+                                <p>For verifications, please email <a href="#">registrar@clgununiversity.edu.</a></p>
+                            </div>
+
+                            <div class="contact-form">
+                                <form id="contactForm">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">First Name</label>
+                                                <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Last Name</label>
+                                                <input type="text" name="name" class="form-control" id="name2" required data-error="Please enter your name" placeholder="">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Email</label>
+                                                <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Phone</label>
+                                                <input type="text" name="phone_number" class="form-control" id="phone_number" required data-error="Please enter your phone number" placeholder="">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group">
+                                                <label for="name">Inquiry Type</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Admission</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group">
+                                                <label for="name">Inquiry</label>
+                                                <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Please enter your message" placeholder=""></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-lg-12 col-md-12">
+                                            <button type="submit" class="default-btn">Submit Now</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-info">
+
+                         <!-- Start Map Area -->
+                        <div id="map" class="map-pd">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185268459418!3d40.74117737932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3f81d549f%3A0xb2a39bb5cacc7da0!2s175%205th%20Ave%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2sbd!4v1588746137032!5m2!1sen!2sbd"></iframe>
+                        </div>
+                        <!-- End Map Area -->
+
+                        <div class="info-details">
+                            <ul>
+                                <li><i class='bx bxs-phone-call'></i> General Inquiries - <a href="tel:+8495160885">(849) 516-0885</a></li>
+                                <li><i class='bx bxs-phone-call'></i> Enrollment Inquiries - <a href="tel:+18554750885">1-855-475-0885</a></li>
+                                <li><i class='bx bxs-phone-call'></i> Financial Inquiries - <a href="tel:+18554750885"> (849) 516-0885</a>(Option 4)</li>
+                                <li><i class='bx bxs-phone-call'></i> Student Account Inquiries - <a href="tel:+18554750885"> (849) 516-0885</a>(Option 5)</li>
+                                <li><i class='bx bxs-map'></i> 404 Camino Del Rio S, Suite 102San Diego, CA 92108</li>
+                                <li><i class='bx bxs-envelope'></i><a class="info-mail" href="registrar@clgununiversity.edu.">registrar@clgununiversity.edu.</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Quick Search Area -->
 
 <?php include "includes/footer.php"; ?>

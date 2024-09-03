@@ -524,8 +524,8 @@
   }
   .faculty-area-2 .heading h2 {
     font-size: 30px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 10px;
+    text-align: start;
   }
   .faculty-area-2 .content p{
     margin-bottom: 30px;
@@ -2874,7 +2874,7 @@
     font-size: 20px;
   }
   .banner-content-2 .content h1 {
-    font-size: 65px;
+    font-size: 50px;
   }
   .banner-content-2 .content p {
     font-size: 16px;

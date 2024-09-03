@@ -467,10 +467,10 @@ opacity: 1;
 border-radius: 50%;
 }
 .carousel-control-next{
-  right:10%;
+  right:5%;
 }
 .carousel-control-prev{
-  left:10%;
+  left:5%;
 }
 
 .logos-slide-wrapper {
@@ -505,6 +505,8 @@ border-radius: 50%;
   /* background-image: url(../img/banner/bg-Image-1.jpg); */
   /* background-size: cover; */
   position:relative;
+  left: 3%;
+
   /* background-repeat: no-repeat;
   background-position: center; */
   padding-top: 150px;

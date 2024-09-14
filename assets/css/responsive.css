@@ -1550,7 +1550,10 @@
   .about-us-area .content img{
     width: 100%;
   }
-
+  .nav-tabs{
+    width: 330px;
+    border-radius: 30px;
+  }
 
   .white-shape {
     height: 240px;

@@ -145,16 +145,16 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="../ca" class="nav-link">CA</a>
+                        <a href="#" class="nav-link">CA</a>
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">CMA</a>
+                        <a href="#" class="nav-link">CMA</a>
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">ACCI(UK)</a>
+                        <a href="#" class="nav-link">ACCI(UK)</a>
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">CMI(US)</a>
+                        <a href="#" class="nav-link">CMI(US)</a>
                       </li>
                     </ul>
                   </li>
@@ -167,16 +167,24 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="about-us" class="nav-link">BCOM + CA</a>
+                        <a href="./integrated-courses" class="nav-link"
+                          >BCOM + CA</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">BCOM + CMA</a>
+                        <a href="./integrated-courses" class="nav-link"
+                          >BCOM + CMA</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">MBA + CA</a>
+                        <a href="./integrated-courses" class="nav-link"
+                          >MBA + CA</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link">MBA + CMA</a>
+                        <a href="./integrated-courses" class="nav-link"
+                          >MBA + CMA</a
+                        >
                       </li>
                     </ul>
                   </li>
@@ -190,22 +198,22 @@
                     <ul class="dropdown-menu">
                       <!-- <li class="nav-item"><a href="about-us" class="nav-link">Proffessional Courses</a></li> -->
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link"
+                        <a href="./technical-courses" class="nav-link"
                           >Techincal Courses</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link"
+                        <a href="./business-courses" class="nav-link"
                           >Bussiness Courses</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link"
+                        <a href="./designing-courses" class="nav-link"
                           >Designing Courses</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a href="news-and-blog" class="nav-link"
+                        <a href="./life-skill-courses" class="nav-link"
                           >Life Skills Courses</a
                         >
                       </li>
@@ -661,109 +669,230 @@
 
     <!-- Start Courses Details Area -->
     <div class="container py-5">
+      <div
+        class="mt-50 wow animate__animated animate__fadeIn"
+        data-wow-delay=".0s"
+      >
+        <div class="tabs-container">
+          <ul
+            class="nav nav-tabs container d-flex justify-content-center align-items-center bg-light py-5 py-md-3 px-5"
+            id="servicesTabs"
+            role="tablist"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active px-4 py-3"
+                id="bcomca-tab"
+                data-bs-toggle="tab"
+                href="#bcomca"
+                role="tab"
+                aria-controls="bcomca"
+                aria-selected="true"
+              >
+                BCOM+CA
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-4 py-3"
+                id="bcomcma-tab"
+                data-bs-toggle="tab"
+                href="#bcomcma"
+                role="tab"
+                aria-controls="bcomcma"
+                aria-selected="false"
+              >
+                BCOM+CMA
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-4 py-3"
+                id="mbaca-tab"
+                data-bs-toggle="tab"
+                href="#mbaca"
+                role="tab"
+                aria-controls="mbaca"
+                aria-selected="false"
+              >
+                MBA+CA
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-4 py-3"
+                id="mbacma-tab"
+                data-bs-toggle="tab"
+                href="#mbacma"
+                role="tab"
+                aria-controls="mbacma"
+                aria-selected="false"
+              >
+                MBA+CMA
+              </a>
+            </li>
+          </ul>
 
-        <div class="mt-50 wow animate__animated animate__fadeIn" data-wow-delay=".0s">
-          <div class="tabs-container">
-            <ul
-              class="nav nav-tabs container d-flex justify-content-center align-items-center bg-light py-5 py-md-3 px-5"
-              id="servicesTabs"
-              role="tablist"
+          <div class="tab-content mt-50 w-100" id="servicesTabsContent">
+            <!-- BCOM+CA Tab -->
+            <div
+              class="tab-pane fade show active"
+              id="bcomca"
+              role="tabpanel"
+              aria-labelledby="bcomca-tab"
             >
-              <li class="nav-item">
-                <a class="nav-link active px-4 py-3" id="bcomca-tab" data-bs-toggle="tab" href="#bcomca" role="tab" aria-controls="bcomca" aria-selected="true">
-                  BCOM+CA
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-3" id="bcomcma-tab" data-bs-toggle="tab" href="#bcomcma" role="tab" aria-controls="bcomcma" aria-selected="false">
-                  BCOM+CMA
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-3" id="mbaca-tab" data-bs-toggle="tab" href="#mbaca" role="tab" aria-controls="mbaca" aria-selected="false">
-                  MBA+CA
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-4 py-3" id="mbacma-tab" data-bs-toggle="tab" href="#mbacma" role="tab" aria-controls="mbacma" aria-selected="false">
-                  MBA+CMA
-                </a>
-              </li>
-            </ul>
-      
-            <div class="tab-content mt-50 w-100" id="servicesTabsContent">
-              <!-- BCOM+CA Tab -->
-              <div class="tab-pane fade show active" id="bcomca" role="tabpanel" aria-labelledby="bcomca-tab">
-                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row">
-                  <div class="w-100">
-                    <img src="./assets/img/banner/bg-Image-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover" />
-                  </div>
-                  <div class="w-100 bg-light p-5">
-                    <h3>BCOM+CA</h3>
-                    <p class="servicesText">
-                      The B.Com + CA dual program is designed for students aspiring to build a robust career in finance, accounting, and auditing. By integrating a Bachelor of Commerce (B.Com) degree with the Chartered Accountancy (CA) qualification, this program provides a comprehensive foundation in commerce while equipping students with specialized knowledge and skills required to excel in the field of Chartered Accountancy.
-                    </p>
-                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                      <a class="default-btn" href="#">BOOK A DEMO</a>
-                      <a class="default-btn btn-style-2" href="#">Ask A Query</a>
-                    </div>
+              <div
+                class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row"
+              >
+                <div class="w-100">
+                  <img
+                    src="./assets/img/banner/bg-Image-1.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="w-100 bg-light p-5">
+                  <h3>BCOM+CA</h3>
+                  <p class="servicesText">
+                    The B.Com + CA dual program is designed for students
+                    aspiring to build a robust career in finance, accounting,
+                    and auditing. By integrating a Bachelor of Commerce (B.Com)
+                    degree with the Chartered Accountancy (CA) qualification,
+                    this program provides a comprehensive foundation in commerce
+                    while equipping students with specialized knowledge and
+                    skills required to excel in the field of Chartered
+                    Accountancy.
+                  </p>
+                  <div
+                    class="buttons-action"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <a class="default-btn" href="#">BOOK A DEMO</a>
+                    <a class="default-btn btn-style-2" href="#">Ask A Query</a>
                   </div>
                 </div>
               </div>
-      
-              <!-- BCOM+CMA Tab -->
-              <div class="tab-pane fade" id="bcomcma" role="tabpanel" aria-labelledby="bcomcma-tab">
-                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row">
-                  <div class="w-100">
-                    <img src="./assets/img/banner/bg-Image-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover" />
-                  </div>
-                  <div class="w-100 bg-light p-5">
-                    <h3>BCOM+CMA</h3>
-                    <p class="servicesText">
-                      The B.Com + CMA dual program is ideal for students interested in specializing in cost management and financial planning. This course blends a Bachelor of Commerce (B.Com) degree with the professional certification of Cost and Management Accounting (CMA), equipping students with a strong foundation in commerce along with expertise in cost accounting and financial management.
-                    </p>
-                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                      <a class="default-btn" href="#">BOOK A DEMO</a>
-                      <a class="default-btn btn-style-2" href="#">Ask A Query</a>
-                    </div>
+            </div>
+
+            <!-- BCOM+CMA Tab -->
+            <div
+              class="tab-pane fade"
+              id="bcomcma"
+              role="tabpanel"
+              aria-labelledby="bcomcma-tab"
+            >
+              <div
+                class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row"
+              >
+                <div class="w-100">
+                  <img
+                    src="./assets/img/banner/bg-Image-1.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="w-100 bg-light p-5">
+                  <h3>BCOM+CMA</h3>
+                  <p class="servicesText">
+                    The B.Com + CMA dual program is ideal for students
+                    interested in specializing in cost management and financial
+                    planning. This course blends a Bachelor of Commerce (B.Com)
+                    degree with the professional certification of Cost and
+                    Management Accounting (CMA), equipping students with a
+                    strong foundation in commerce along with expertise in cost
+                    accounting and financial management.
+                  </p>
+                  <div
+                    class="buttons-action"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <a class="default-btn" href="#">BOOK A DEMO</a>
+                    <a class="default-btn btn-style-2" href="#">Ask A Query</a>
                   </div>
                 </div>
               </div>
-      
-              <!-- MBA+CA Tab -->
-              <div class="tab-pane fade" id="mbaca" role="tabpanel" aria-labelledby="mbaca-tab">
-                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row">
-                  <div class="w-100">
-                    <img src="./assets/img/banner/bg-Image-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover" />
-                  </div>
-                  <div class="w-100 bg-light p-5">
-                    <h3>MBA+CA</h3>
-                    <p class="servicesText">
-                      The MBA + CA program is a powerhouse combination for those aiming to take on leadership roles in finance, accounting, and corporate management. This program merges the strategic and managerial knowledge gained through an MBA with the technical expertise of Chartered Accountancy, making graduates highly sought after in the corporate world.
-                    </p>
-                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                      <a class="default-btn" href="#">BOOK A DEMO</a>
-                      <a class="default-btn btn-style-2" href="#">Ask A Query</a>
-                    </div>
+            </div>
+
+            <!-- MBA+CA Tab -->
+            <div
+              class="tab-pane fade"
+              id="mbaca"
+              role="tabpanel"
+              aria-labelledby="mbaca-tab"
+            >
+              <div
+                class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row"
+              >
+                <div class="w-100">
+                  <img
+                    src="./assets/img/banner/bg-Image-1.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="w-100 bg-light p-5">
+                  <h3>MBA+CA</h3>
+                  <p class="servicesText">
+                    The MBA + CA program is a powerhouse combination for those
+                    aiming to take on leadership roles in finance, accounting,
+                    and corporate management. This program merges the strategic
+                    and managerial knowledge gained through an MBA with the
+                    technical expertise of Chartered Accountancy, making
+                    graduates highly sought after in the corporate world.
+                  </p>
+                  <div
+                    class="buttons-action"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <a class="default-btn" href="#">BOOK A DEMO</a>
+                    <a class="default-btn btn-style-2" href="#">Ask A Query</a>
                   </div>
                 </div>
               </div>
-      
-              <!-- MBA+CMA Tab -->
-              <div class="tab-pane fade" id="mbacma" role="tabpanel" aria-labelledby="mbacma-tab">
-                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row">
-                  <div class="w-100">
-                    <img src="./assets/img/banner/bg-Image-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover" />
-                  </div>
-                  <div class="w-100 bg-light p-5">
-                    <h3>MBA+CMA</h3>
-                    <p class="servicesText">
-                      The MBA + CMA program is designed for those who want to excel in strategic financial management and cost accounting while also gaining advanced business management skills. This dual qualification provides a unique blend of managerial education with specialized knowledge in cost management, making graduates ideal candidates for senior roles in business and finance.
-                    </p>
-                    <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                      <a class="default-btn" href="#">BOOK A DEMO</a>
-                      <a class="default-btn btn-style-2" href="#">Ask A Query</a>
-                    </div>
+            </div>
+
+            <!-- MBA+CMA Tab -->
+            <div
+              class="tab-pane fade"
+              id="mbacma"
+              role="tabpanel"
+              aria-labelledby="mbacma-tab"
+            >
+              <div
+                class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row"
+              >
+                <div class="w-100">
+                  <img
+                    src="./assets/img/banner/bg-Image-1.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <div class="w-100 bg-light p-5">
+                  <h3>MBA+CMA</h3>
+                  <p class="servicesText">
+                    The MBA + CMA program is designed for those who want to
+                    excel in strategic financial management and cost accounting
+                    while also gaining advanced business management skills. This
+                    dual qualification provides a unique blend of managerial
+                    education with specialized knowledge in cost management,
+                    making graduates ideal candidates for senior roles in
+                    business and finance.
+                  </p>
+                  <div
+                    class="buttons-action"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <a class="default-btn" href="#">BOOK A DEMO</a>
+                    <a class="default-btn btn-style-2" href="#">Ask A Query</a>
                   </div>
                 </div>
               </div>
@@ -771,8 +900,8 @@
           </div>
         </div>
       </div>
-      
-      
+    </div>
+
     <!-- End Courses Details Area -->
 
     <!-- Start Footer Area -->

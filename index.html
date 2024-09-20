@@ -221,13 +221,13 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="academics" class="nav-link">Employers</a>
+                    <a href="./employers" class="nav-link">Employers</a>
                   </li>
                   <li class="nav-item">
-                    <a href="undergraduate" class="nav-link">Colleges</a>
+                    <a href="./colleges" class="nav-link">Colleges</a>
                   </li>
                   <li class="nav-item">
-                    <a href="graduate" class="nav-link">Mentors</a>
+                    <a href="./mentors" class="nav-link">Mentors</a>
                   </li>
                 </ul>
               </li>
@@ -300,25 +300,9 @@
       <div class="offcanvas-body">
         <div class="accordion" id="navbarAccordion">
           <div class="accordion-item">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseHome"
-              aria-expanded="false"
-              aria-controls="collapseHome"
+            <a class="accordion-link without-icon" href="/"
+              >Home</a
             >
-              Home
-            </button>
-            <div
-              id="collapseHome"
-              class="accordion-collapse collapse"
-              data-bs-parent="#navbarAccordion"
-            >
-              <div class="accordion-body">
-                <a href="/" class="accordion-link">Home</a>
-              </div>
-            </div>
           </div>
 
           <div class="accordion-item">
@@ -356,14 +340,10 @@
                       data-bs-parent="#navbarAccordionCourses"
                     >
                       <div class="accordion-body">
-                        <a href="../ca" class="accordion-link">CA</a>
-                        <a href="news-and-blog" class="accordion-link">CMA</a>
-                        <a href="news-and-blog" class="accordion-link"
-                          >ACCI(UK)</a
-                        >
-                        <a href="news-and-blog" class="accordion-link"
-                          >CMI(US)</a
-                        >
+                        <a href="./ca" class="accordion-link">CA</a>
+                        <a href="./cma" class="accordion-link">CMA</a>
+                        <a href="./acca" class="accordion-link">ACCA(UK)</a>
+                        <a href="./cma-us" class="accordion-link">CMA(US)</a>
                       </div>
                     </div>
                   </div>
@@ -384,15 +364,17 @@
                       class="accordion-collapse collapse"
                       data-bs-parent="#navbarAccordionCourses"
                     >
-                      <div class="accordion-body">
-                        <a href="about-us" class="accordion-link">BCOM + CA</a>
-                        <a href="news-and-blog" class="accordion-link"
+                      <div class="accordion-body d-flex flex-column gap-2">
+                        <a href="./integrated-courses" class="accordion-link"
+                          >BCOM + CA</a
+                        >
+                        <a href="./integrated-courses" class="accordion-link"
                           >BCOM + CMA</a
                         >
-                        <a href="news-and-blog" class="accordion-link"
+                        <a href="./integrated-courses" class="accordion-link"
                           >MBA + CA</a
                         >
-                        <a href="news-and-blog" class="accordion-link"
+                        <a href="./integrated-courses" class="accordion-link"
                           >MBA + CMA</a
                         >
                       </div>
@@ -415,17 +397,17 @@
                       class="accordion-collapse collapse"
                       data-bs-parent="#navbarAccordionCourses"
                     >
-                      <div class="accordion-body">
-                        <a href="news-and-blog" class="accordion-link"
+                      <div class="accordion-body d-flex flex-column gap-2">
+                        <a href="./technical-courses" class="accordion-link"
                           >Technical Courses</a
                         >
-                        <a href="news-and-blog" class="accordion-link"
+                        <a href="./business-courses" class="accordion-link"
                           >Business Courses</a
                         >
-                        <a href="news-and-blog" class="accordion-link"
+                        <a href="./designing-courses" class="accordion-link"
                           >Designing Courses</a
                         >
-                        <a href="news-and-blog" class="accordion-link"
+                        <a href="./life-skill-courses" class="accordion-link"
                           >Life Skills Courses</a
                         >
                       </div>
@@ -452,10 +434,10 @@
               class="accordion-collapse collapse"
               data-bs-parent="#navbarAccordion"
             >
-              <div class="accordion-body">
-                <a href="academics" class="accordion-link">Employers</a>
-                <a href="undergraduate" class="accordion-link">Colleges</a>
-                <a href="graduate" class="accordion-link">Mentors</a>
+              <div class="accordion-body d-flex flex-column gap-2">
+                <a href="./employers" class="accordion-link">Employers</a>
+                <a href="./colleges" class="accordion-link">Colleges</a>
+                <a href="./mentors" class="accordion-link">Mentors</a>
               </div>
             </div>
           </div>
@@ -476,74 +458,28 @@
               class="accordion-collapse collapse"
               data-bs-parent="#navbarAccordion"
             >
-              <div class="accordion-body">
-                <a href="../core-values" class="accordion-link"
+              <div class="accordion-body d-flex flex-column gap-2">
+                <a href="./our-core-values" class="accordion-link"
                   >Our Core Values</a
                 >
-                <a href="../whyus" class="accordion-link">Why Us</a>
-                <a href="graduate" class="accordion-link">Our Presence</a>
-                <a href="graduate" class="accordion-link">Our Team</a>
-                <a href="graduate" class="accordion-link">Our Alumni</a>
+                <a href="./why-us" class="accordion-link">Why Us</a>
+                <a href="#" class="accordion-link">Our Presence</a>
+                <a href="./our-team" class="accordion-link">Our Team</a>
+                <a href="#" class="accordion-link">Our Alumni</a>
               </div>
             </div>
           </div>
 
           <div class="accordion-item">
-            <a
-              class="accordion-link without-icon"
-              href="https://edployedu.com/#features"
+            <a class="accordion-link without-icon" href="javascript:void(0)"
+              >Recruitment</a
             >
-              Services
-            </a>
           </div>
 
           <div class="accordion-item">
-            <a class="accordion-link without-icon" href="javascript:void(0)">
-              Recruitment
-            </a>
-          </div>
-
-          <div class="accordion-item">
-            <a class="accordion-link without-icon" href="contact-us">
-              Contact Us
-            </a>
-          </div>
-        </div>
-
-        <div class="offcanvas-contact-info">
-          <h4>Contact Info</h4>
-          <ul class="contact-info list-style">
-            <li>
-              <i class="bx bxs-envelope"></i>
-              <a href="mailto:contact@Clgunme.edu">contact@Clgunme.edu</a>
-            </li>
-            <li>
-              <i class="bx bxs-time"></i>
-              <p>Mon - Fri: 9:00 - 18:00</p>
-            </li>
-          </ul>
-          <ul class="social-profile list-style">
-            <li>
-              <a href="https://www.fb.com" target="_blank"
-                ><i class="bx bxl-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com" target="_blank"
-                ><i class="bx bxl-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com" target="_blank"
-                ><i class="bx bxl-linkedin"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="offcanvas-other-options">
-          <div class="option-item">
-            <a href="contact-us" class="default-btn">Contact Us</a>
+            <a class="accordion-link without-icon" href="contact-us"
+              >Contact Us</a
+            >
           </div>
         </div>
       </div>
@@ -1515,7 +1451,7 @@
                 </ul>
               </div>
             </div>
-     
+
             <div class="col-lg-2 col-sm-6 col-md-6">
               <div class="footer-widget">
                 <h4>Collaboration</h4>
